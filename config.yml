@@ -17,10 +17,10 @@ minify:
 
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
-    title: ExampleSite
-    description: "ExampleSite description"
+    title: Antonio's blog
+    description: "Thoughts, development ideas and stories."
     keywords: [Blog, Portfolio, PaperMod]
-    author: Me
+    author: "Antonio Juarez"
     # author: ["Me", "You"] # multiple authors
     images: ["<link or path of image for opengraph, twitter-cards>"]
     DateFormat: "January 2, 2006"
@@ -37,7 +37,7 @@ params:
     comments: false
     hidemeta: false
     hideSummary: false
-    showtoc: false
+    showtoc: true
     tocopen: false
 
     assets:
@@ -71,7 +71,7 @@ params:
 
     # home-info mode
     homeInfoParams:
-        Title: "Hi there \U0001F44B, welcome to my blog"
+        Title: "Hello, welcome to my blog"
         Content: Thoughts, development ideas and stories.
 
     socialIcons:
@@ -81,6 +81,8 @@ params:
         #  url: "https://stackoverflow.com"
         - name: github
           url: "https://github.com/AntonioJuarezDev"
+        - name: linkedin
+          url: "https://www.linkedin.com/in/antonio-ju%C3%A1rez-trujillo-130742190"
 
     #analytics:
     #    google:
@@ -116,21 +118,21 @@ menu:
           name: Archives
           url: /archives/
           weight: 5
-        - identifier: categories
-          name: Categories
-          url: /categories/
-          weight: 10
-        - identifier: tags
-          name: Tags
-          url: /tags/
-          weight: 20
+        #- identifier: categories
+        #  name: Categories
+        #  url: /categories/
+        #  weight: 10
+        #- identifier: tags
+        #  name: Tags
+        #  url: /tags
+        #  weight: 20
         - identifier: search
           name: Search
-          url: /search/
+          url: /search
           weight: 25
         - identifier: about
           name: About
-          url: /about/
+          url: /about
           weight: 30
         #- identifier: example
         #  name: example.org
