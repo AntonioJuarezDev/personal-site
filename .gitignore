@@ -50,3 +50,6 @@ Thumbs.db
 
 # public folder
 /public/
+
+# hugo settings
+.hugo_build.lock
