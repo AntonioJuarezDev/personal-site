@@ -1,4 +1,4 @@
-baseURL: "https://antoniojuarez.dev/"
+baseURL: "https://www.antoniojuarez.dev/"
 title: Antonio's blog
 paginate: 5
 theme: PaperMod
@@ -24,7 +24,7 @@ params:
     # author: ["Me", "You"] # multiple authors
     images: ["<link or path of image for opengraph, twitter-cards>"]
     DateFormat: "January 2, 2006"
-    defaultTheme: auto # dark, light
+    defaultTheme: dark # dark, light
     disableThemeToggle: false
 
     ShowReadingTime: true
@@ -46,8 +46,8 @@ params:
         favicon: "<link / abs url>"
         favicon16x16: "<link / abs url>"
         favicon32x32: "<link / abs url>"
-        apple_touch_icon: "<link / abs url>"
-        safari_pinned_tab: "<link / abs url>"
+        #apple_touch_icon: "<link / abs url>"
+        #safari_pinned_tab: "<link / abs url>"
 
     label:
         text: "Antonio Juarez"
@@ -71,8 +71,8 @@ params:
 
     # home-info mode
     homeInfoParams:
-        Title: "Hi there \U0001F44B"
-        Content: Welcome to my blog
+        Title: "Hi there \U0001F44B, welcome to my blog"
+        Content: Thoughts, development ideas and stories.
 
     socialIcons:
         - name: twitter
@@ -95,10 +95,10 @@ params:
         hiddenInList: true # hide on list pages and home
         hiddenInSingle: true # hide on single page
 
-    editPost:
-        URL: "https://github.com/<path_to_repo>/content"
-        Text: "Suggest Changes" # edit text
-        appendFilePath: true # to append file path to Edit link
+    #editPost:
+    #    URL: "https://github.com/<path_to_repo>/content"
+    #    Text: "Suggest Changes" # edit text
+    #    appendFilePath: true # to append file path to Edit link
 
     # for search
     # https://fusejs.io/api/options.html
@@ -112,18 +112,37 @@ params:
         keys: ["title", "permalink", "summary", "content"]
 menu:
     main:
+        - identifier: archives
+          name: Archives
+          url: /archives/
+          weight: 5
         - identifier: categories
-          name: categories
+          name: Categories
           url: /categories/
           weight: 10
         - identifier: tags
-          name: tags
+          name: Tags
           url: /tags/
           weight: 20
-        - identifier: example
-          name: example.org
-          url: https://example.org
+        - identifier: search
+          name: Search
+          url: /search/
+          weight: 25
+        - identifier: about
+          name: About
+          url: /about/
           weight: 30
+        #- identifier: example
+        #  name: example.org
+        #  url: https://example.org
+        #  weight: 30
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON # is necessary
+
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 # pygmentsUseClasses: true
 # markup:
