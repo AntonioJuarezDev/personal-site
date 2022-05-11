@@ -1,7 +1,7 @@
 ---
 title: "About"
-layout: "about"
-url: "/about/"
+layout: "section"
+url: "/about"
 summary: about
 ---
 My name is Antonio Juárez; I'm a web developer.
