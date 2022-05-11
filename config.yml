@@ -138,6 +138,10 @@ menu:
           name: About
           url: /about
           weight: 30
+        - identifier: contact
+          name: Contact
+          url: /contact
+          weight: 35
         #- identifier: example
         #  name: example.org
         #  url: https://example.org
