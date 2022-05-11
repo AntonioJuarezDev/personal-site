@@ -7,7 +7,9 @@ enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
-pygmentsUseClasses: true
+pygmentsUseClasses: false
+pygmentsCodefences: true
+pygmentsStyle: "dracula"
 
 #googleAnalytics: UA-123-45
 
@@ -41,7 +43,7 @@ params:
     tocopen: false
 
     assets:
-        # disableHLJS: true # to disable highlight.js
+        disableHLJS: true # to disable highlight.js
         # disableFingerprinting: true
         favicon: "<link / abs url>"
         favicon16x16: "<link / abs url>"
@@ -155,10 +157,23 @@ outputs:
 
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 # pygmentsUseClasses: true
-# markup:
-#     highlight:
-#         # anchorLineNos: true
-#         codeFences: true
-#         guessSyntax: true
-#         lineNos: true
-#         style: monokai
+#markup:
+#    highlight:
+#      # anchorLineNos: true
+#        codeFences: true
+#        guessSyntax: true
+#        lineNos: true
+#        style: monokai
+markup:
+  highlight:
+    anchorLineNos: false
+    codeFences: true
+    guessSyntax: false
+    hl_Lines: ""
+    lineAnchors: ""
+    lineNoStart: 1
+    lineNos: true
+    lineNumbersInTable: true
+    noClasses: true
+    noHl: false
+    tabWidth: 2
