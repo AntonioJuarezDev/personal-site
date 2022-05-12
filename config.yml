@@ -81,6 +81,8 @@ params:
           url: "https://twitter.com/AntonioJDev"
         #- name: stackoverflow
         #  url: "https://stackoverflow.com"
+        - name: mastodon
+          url:  "https://c.im/@AntonioJDev"
         - name: github
           url: "https://github.com/AntonioJuarezDev"
         - name: linkedin
