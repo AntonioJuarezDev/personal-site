@@ -77,8 +77,6 @@ params:
         Content: Thoughts, development ideas and stories.
 
     socialIcons:
-        - name: twitter
-          url: "https://twitter.com/AntonioJDev"
         #- name: stackoverflow
         #  url: "https://stackoverflow.com"
         - name: mastodon
@@ -87,6 +85,8 @@ params:
           url: "https://github.com/AntonioJuarezDev"
         - name: linkedin
           url: "https://www.linkedin.com/in/antonio-ju%C3%A1rez-trujillo-130742190"
+        - name: twitter
+          url: "https://twitter.com/AntonioJDev"
 
     #analytics:
     #    google:
