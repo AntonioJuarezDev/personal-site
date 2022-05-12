@@ -117,7 +117,7 @@ params:
 menu:
     main:
         - identifier: archives
-          name: Archives
+          name: Posts
           url: /archives
           weight: 5
         - identifier: portfolio
