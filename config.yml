@@ -28,6 +28,8 @@ params:
     DateFormat: "January 2, 2006"
     defaultTheme: dark # dark, light
     disableThemeToggle: false
+    mainSections: [posts]
+    careerSections: [career]
 
     ShowReadingTime: true
     ShowShareButtons: true
@@ -126,6 +128,10 @@ menu:
           name: Portfolio
           url: /portfolio
           weight: 10
+        - identifier: career
+          name: Career
+          url: /career
+          weight: 15
         #- identifier: categories
         #  name: Categories
         #  url: /categories/
