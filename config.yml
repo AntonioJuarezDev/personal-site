@@ -29,7 +29,7 @@ params:
     defaultTheme: dark # dark, light
     disableThemeToggle: false
     mainSections: [posts]
-    careerSections: [career]
+    careerSections: [career_posts]
 
     ShowReadingTime: true
     ShowShareButtons: true
