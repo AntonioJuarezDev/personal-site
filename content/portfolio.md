@@ -1,7 +1,6 @@
 ---
 title: "Portfolio"
-layout: "section"
+layout: "portfolio"
 url: "/portfolio"
 summary: portfolio
 ---
-portfolio page (**WIP**)
