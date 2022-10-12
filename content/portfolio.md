@@ -1,6 +1,6 @@
 ---
 title: "Portfolio"
-layout: "archives"
+description: "Past projects I've worked on"
+layout: "portfolio"
 url: "/portfolio"
-summary: portfolio
 ---

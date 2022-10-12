@@ -31,7 +31,7 @@ params:
     disableThemeToggle: false
     mainSections: [posts]
     careerSections: [career_posts]
-    projectsSection: [project_posts]
+    projectsSections: [projects_posts]
 
     ShowReadingTime: true
     ShowShareButtons: true
